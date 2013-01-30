@@ -1,0 +1,10 @@
+Pod::Spec.new do |s|
+  s.name         = "chipmunk-physics"
+  s.version      = "0.0.1"
+  s.summary      = "Chipmunk is a simple, lightweight, fast and portable 2D rigid body physics library written in C."
+  s.homepage     = "http://chipmunk-physics.net"
+  s.license      = 'MIT '
+  s.author       = { "slembcke" => "admin@howlingmoonsoftware.com" }
+  s.source       = { :git => "https://github.com/slembcke/Chipmunk-Physics.git", :tag => "Chipmunk-6.1.3" }
+  s.source_files = 'src/**/*.{h,m}'
+end
