@@ -5,6 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://chipmunk-physics.net"
   s.license      = 'MIT '
   s.author       = { "slembcke" => "admin@howlingmoonsoftware.com" }
+  s.header_dir   = "include/chipmunk"
   s.source       = { :git => "https://github.com/slembcke/Chipmunk-Physics.git", :tag => "Chipmunk-6.1.3" }
   s.source_files = 'src/**/*.{h,c}'
   s.header_mappings_dir = 'src'
